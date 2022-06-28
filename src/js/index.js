@@ -9,7 +9,7 @@ import "../styles/index.css";
 //component
 function SimpleCounter(props){
     return (<div className="wholeCounter">  
-    <div className="clock"><i className="fa-solid fa-clock"></i></div>
+    <div className="clock">🕒</div>
     <div className="six">{props.digitSix % 10}</div>
     <div className="five">{props.digitFive % 10}</div>
     <div className="four">{props.digitFour % 10}</div>
